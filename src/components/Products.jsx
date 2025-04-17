@@ -60,7 +60,7 @@ const ProductCards = () => {
         productPrice: selectedProduct.price,
       };
 
-      const res = await fetch('https://ecommerce-backend-i2i3ccoht-areenas-projects-27450e95.vercel.app/api/order', {
+      const res = await fetch('https://ecommerce-backend-beta-pearl.vercel.app/api/order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
