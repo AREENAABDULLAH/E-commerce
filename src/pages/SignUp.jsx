@@ -7,7 +7,7 @@ const SignUp = () => {
 
     const onFinish = async (values) => {
         try {
-            const res = await fetch('https://ecommerce-backend-beta-pearl.vercel.app/api/signup', {
+            const res = await fetch('https://ecommerce-backend-beta-pearl.vercel.app/api/auth/signup', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(values)
